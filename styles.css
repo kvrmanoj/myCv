@@ -5,21 +5,87 @@ body {
 }
 
 h1 {
+  font-size: 5.62rem;
   margin-top:0;
   font-family: 'Sacramento',cursive;
+  color: #66BFBF;
 }
 
+h2{
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3{
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
 .TopContainer {
   padding-top: 100px;
   background-color: #F6F2D4;
+}
+.SkillText{
+  text-align: left;
+}
+
+hr{
+  border:dotted #66BFBF 6px;
+  border-bottom:none;
+  margin: 100px auto 100px auto;
+  width: 4%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #119994);
+  background-image: -moz-linear-gradient(top, #11cdd4, #119994);
+  background-image: -ms-linear-gradient(top, #11cdd4, #119994);
+  background-image: -o-linear-gradient(top, #11cdd4, #119994);
+  background-image: linear-gradient(to bottom, #11cdd4, #119994);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc48);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc48);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc48);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc48);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc48);
+  text-decoration: none;
 }
 
 .middle-container {
 
 }
 
-.bottom-container{
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.bottom-container{
+margin-top: 40px;
+ background-color: #66BFBF;
+ padding-top: 80px;
 }
 
 .BottomCloud{
@@ -29,7 +95,24 @@ h1 {
 
 }
 
-.p{
+.Skillimage{
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+}
+
+.Skillimage1{
+  width: 25%;
+  float: right;
+  margin-left: 5%;
+}
+
+a{
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px 10px 20px;
+}
+
+p{
   font-family: 'Montserrat',sans-serif;
 }
 
@@ -37,4 +120,8 @@ h1 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+p{
+  margin: 20px auto;
 }
